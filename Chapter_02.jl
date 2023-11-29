@@ -475,10 +475,10 @@ problem = ODEProblem(cobb_douglas, u0, tspan)
 sol = solve(problem)
 plot(sol)
 
-y(t) = (a/b * (1 - α) * (exp(b*t) - 1) + u0^(1 - α))^(1/(1-α))
+analytic_eqn(t) = (a/b * (1 - α) * (exp(b*t) - 1) + u0^(1 - α))^(1/(1-α))
 plot!(
     sol.t,
-    t-> y.(t),
+    t-> analytic_eqn.(t),
     label="Analytic Solution"
 )
 
