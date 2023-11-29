@@ -13,7 +13,6 @@ The Julia code in this repository is crafted by Tuah Jihan Manullang. While the 
 ### **Usage**
 
 * When utilizing examples from the problems, kindly cite the book: "500 Examples and Problems of Applied Differential Equations" by Ravi P. Agarwal, Simona Hodis, and Donal O’Regan (Springer edition, 2019).
-* If you use the Julia code, please give appropriate credit to the code author, Tuah Jihan Manullang.
 
 ### **Contribution**
 
